@@ -15,17 +15,12 @@ Matriz* criaMatriz(int linhas, int colunas) {
     return m;
 }
 
-// Faz o equivalente a m[linha][coluna] = valor
 void atualizaElemento(Matriz *m, int linha, int coluna, int valor) {
-    // Complete aqui. Lembre-se de que os elementos estão guardados
-    // em um único vetor, linha por linha, que começa em m->matriz.
+    // Complete o código para que seja feita a operação m[linha][coluna] = valor.
 }
 
-// Faz o equivalente a valor = m[linha][coluna]
 int recuperaElemento(Matriz *m, int linha, int coluna) {
-    // Complete aqui. Lembre-se de que os elementos estão guardados
-    // em um único vetor, linha por linha, que começa em m->matriz.
-    return 0;
+    // Complete o código para que seja recuperado o elemento m[linha][coluna].
 }
 
 // Imprime a matriz, uma linha por vez
